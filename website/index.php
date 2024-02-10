@@ -35,9 +35,9 @@
 
 			<div class="serie">
 				<div id="image_holder">
-					<img src="72f0756757f864e80b21686dd7cd34b3.jpg" class="image">
+					<img src="images/<?php echo $row['title']?>/<?php echo $row['image']?>" class="image">
 				</div>
-				<h3><?php echo $row['title']?></h3>
+				<h3><a href="display_page.php?id=<?php echo $row['id']?>"><?php echo $row['title']?></a></h3>
 			</div>
 			
 
